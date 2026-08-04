@@ -88,23 +88,35 @@ Skill 会区分“计划做”“正在做”“已经完成”和“结果已�
 
 ## 安装
 
-下载或克隆本仓库后，复制内层的 `write-performance-review` 文件夹。安装完成后，`SKILL.md` 应直接位于 Skill 目录下。
+把仓库克隆下来后，把内层的 `write-performance-review` 文件夹复制到你的 Codex skills 目录即可。安装完成后，`SKILL.md` 应直接位于 `write-performance-review/` 目录下。
 
-### Codex 全局安装
+### 1. 克隆仓库
 
-Windows：
-
-```text
-%USERPROFILE%\.codex\skills\write-performance-review\SKILL.md
+```bash
+git clone https://github.com/soling0410/write-performance-review.git
 ```
 
-macOS 或 Linux：
+### 2. 复制 skill 文件夹到 Codex skills 目录
+
+Git Bash（Windows / macOS / Linux）：
+
+```bash
+cp -r write-performance-review/write-performance-review ~/.codex/skills/
+```
+
+PowerShell（Windows）：
+
+```powershell
+Copy-Item -Recurse write-performance-review\write-performance-review $env:USERPROFILE\.codex\skills\
+```
+
+### 3. 重启或刷新 Codex
+
+安装完成后，`SKILL.md` 的最终位置是：
 
 ```text
 ~/.codex/skills/write-performance-review/SKILL.md
 ```
-
-重启或刷新 Codex 后即可使用。
 
 ### 其他支持 Agent Skills 的工具
 
