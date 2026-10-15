@@ -88,12 +88,12 @@ Skill 会区分“计划做”“正在做”“已经完成”和“结果已�
 
 ## 安装
 
-把仓库克隆下来后，把内层的 `write-performance-review` 文件夹复制到你的 Codex skills 目录即可。安装完成后，`SKILL.md` 应直接位于 `write-performance-review/` 目录下。
+把仓库克隆下来后，把内层的 `doudou-write-performance-review` 文件夹复制到你的 Codex skills 目录即可。安装完成后，`SKILL.md` 应直接位于 `doudou-write-performance-review/` 目录下。
 
 ### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/soling0410/write-performance-review.git
+git clone https://github.com/soling0410/doudou-write-performance-review.git
 ```
 
 ### 2. 复制 skill 文件夹到 Codex skills 目录
@@ -101,13 +101,13 @@ git clone https://github.com/soling0410/write-performance-review.git
 Git Bash（Windows / macOS / Linux）：
 
 ```bash
-cp -r write-performance-review/write-performance-review ~/.codex/skills/
+cp -r doudou-write-performance-review/doudou-write-performance-review ~/.codex/skills/
 ```
 
 PowerShell（Windows）：
 
 ```powershell
-Copy-Item -Recurse write-performance-review\write-performance-review $env:USERPROFILE\.codex\skills\
+Copy-Item -Recurse doudou-write-performance-review\doudou-write-performance-review $env:USERPROFILE\.codex\skills\
 ```
 
 ### 3. 重启或刷新 Codex
@@ -115,19 +115,19 @@ Copy-Item -Recurse write-performance-review\write-performance-review $env:USERPR
 安装完成后，`SKILL.md` 的最终位置是：
 
 ```text
-~/.codex/skills/write-performance-review/SKILL.md
+~/.codex/skills/doudou-write-performance-review/SKILL.md
 ```
 
 ### 其他支持 Agent Skills 的工具
 
-将内层 `write-performance-review` 文件夹放入该工具文档指定的 Skills 目录。不同客户端的目录位置和刷新方式可能不同，请以对应工具的官方说明为准。
+将内层 `doudou-write-performance-review` 文件夹放入该工具文档指定的 Skills 目录。不同客户端的目录位置和刷新方式可能不同，请以对应工具的官方说明为准。
 
 ## 如何开始
 
 可以直接调用：
 
 ```text
-$write-performance-review
+$doudou-write-performance-review
 ```
 
 也可以用自然语言开始，例如：
@@ -171,7 +171,7 @@ $write-performance-review
 ## 目录结构
 
 ```text
-write-performance-review/
+doudou-write-performance-review/
 ├── SKILL.md
 ├── agents/
 │   └── openai.yaml

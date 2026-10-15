@@ -1,0 +1,4 @@
+interface:
+  display_name: "年终述职助手"
+  short_description: "主动补齐岗位证据，核验数据与敏感内容后锁定述职"
+  default_prompt: "使用 $doudou-write-performance-review 主动梳理我的岗位成果，确认负面内容与数据来源，再锁定述职并生成 PPT Agent 交接包。"
